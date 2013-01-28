@@ -53,5 +53,5 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 v0.1.0 - First commit
 
 ## License
-Copyright (c) 2013 FG Ribreau
+Copyright (c) 2013 Francois-Guillaume Ribreau
 Licensed under the MIT license.
