@@ -17,7 +17,7 @@ var myColl = new Backbone.CappedCollection([
  {name: "Bringr",  url: "http://brin.gr"},
  {name: "Redsmin", url: "http://redsmin.com"},
 ], {
-// {optional} Capped Collection default size (default. 5)
+// {optional} Capped Collection size (default. 5)
 cap:2,
 // {optional} From where should it start to remove elements, "first" or "last" (default. first)
 capRemove:'first'
@@ -43,7 +43,6 @@ var Backbone = require('backbone');
 Backbone = require('backbone-cappedcollection')(Backbone);
 
 // [... same as the client-side code above ...]
-
 ```
 
 ## Contributing
