@@ -1,4 +1,4 @@
-# Backbone Capped Collection
+# Backbone Capped Collection [![Build Status](https://travis-ci.org/FGRibreau/backbone-cappedcollection.png)](https://travis-ci.org/FGRibreau/backbone-cappedcollection)
 
 Capped collection for BackboneJS
 
