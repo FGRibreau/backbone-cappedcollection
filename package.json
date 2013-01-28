@@ -1,7 +1,7 @@
 {
   "name": "backbone-cappedcollection",
-  "description": "Capped collection for BackboneJS",
-  "version": "0.1.0",
+  "description": "Capped Collections for BackboneJS",
+  "version": "0.1.1",
   "homepage": "https://github.com/FGRibreau/backbone-cappedcollection",
   "author": "Francois-Guillaume Ribreau <npm@fgribreau.com> (http://twitter.com/FGRibreau)",
   "repository": {

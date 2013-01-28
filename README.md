@@ -1,6 +1,6 @@
-# Backbone Capped Collection [![Build Status](https://travis-ci.org/FGRibreau/backbone-cappedcollection.png)](https://travis-ci.org/FGRibreau/backbone-cappedcollection)
+# Backbone Capped Collections [![Build Status](https://travis-ci.org/FGRibreau/backbone-cappedcollection.png)](https://travis-ci.org/FGRibreau/backbone-cappedcollection)
 
-Capped collection for BackboneJS
+Capped Collections for BackboneJS
 
 ## Getting Started
 Install the module with: `npm install backbone-cappedcollection`
@@ -13,14 +13,14 @@ Install the module with: `npm install backbone-cappedcollection`
 <script type="text/javascript" src="lib/index.js"></script>
 <script type="text/javascript">
 var myColl = new Backbone.CappedCollection([
- {name: "Twitter", url: "http://twitter.com/FGRibreau"}, // Will be removed
- {name: "Bringr",  url: "http://brin.gr"},
- {name: "Redsmin", url: "http://redsmin.com"},
+  {name: "Twitter", url: "http://twitter.com/FGRibreau"}, // Will be removed
+  {name: "Bringr",  url: "http://brin.gr"},
+  {name: "Redsmin", url: "http://redsmin.com"},
 ], {
-// {optional} Capped Collection size (default. 5)
-cap:2,
-// {optional} From where should it start to remove elements, "first" or "last" (default. first)
-capRemove:'first'
+  // {optional} Capped Collection size (default. 5)
+  cap:2,
+  // {optional} From where should it start to remove elements, "first" or "last" (default. first)
+  capRemove:'first'
 });
 
 myColl.length; // == 2
