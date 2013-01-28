@@ -1,0 +1,37 @@
+{
+  "name": "backbone-cappedcollection",
+  "description": "Capped collection for BackboneJS",
+  "version": "0.1.0",
+  "homepage": "https://github.com/FGRibreau/backbone-cappedcollection",
+  "author": "Francois-Guillaume Ribreau <npm@fgribreau.com> (http://twitter.com/FGRibreau)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/FGRibreau/backbone-cappedcollection.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FGRibreau/backbone-cappedcollection/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/FGRibreau/backbone-cappedcollection/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "index",
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "~0.3.15",
+    "backbone": "~0.9.10",
+    "grunt-shell": "~0.1.4",
+    "nodeunit": "~0.7.4"
+  },
+  "keywords": [],
+  "dependencies": {
+    "lodash": "~1.0.0-rc.3"
+  }
+}
